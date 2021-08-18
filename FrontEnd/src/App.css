@@ -1,0 +1,44 @@
+.App {
+	text-align: center;
+}
+
+.posts {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.pots {
+	display: flex;
+	flex-direction: column;
+}
+
+.img {
+	height: 300px;
+}
+
+.singlePotCard {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.singlePot {
+	max-height: 600px;
+	max-width: 600px;
+}
+
+.button {
+	width: 200px;
+	margin: 0.5em;
+}
+
+.header {
+	padding-left: 3em;
+	padding-right: 3em;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
